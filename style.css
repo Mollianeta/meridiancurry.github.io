@@ -7,6 +7,12 @@ body {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
 }
 
 main {
@@ -14,11 +20,11 @@ main {
 }
 
 img {
-
     border-radius: 10%;
     max-width: 80%;
     height: auto; 
 }
+
 
 footer {
     text-align: center;
@@ -31,6 +37,12 @@ p {
     text-align: left;
 }
 
+.logo {
+    border-radius: 30%;
+    max-width: 10%;
+    height: auto;
+}
+
 .nav-container {
     display: flex;
     background-color: #463727;
@@ -38,11 +50,15 @@ p {
     align-items: center;
 }
 
-.nav-container div{
+.nav-button {
     background-color: #987654;
     text-align: center;
     padding: 1% 5%;
     margin: 1%;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
 }
 
 .footer-container {
