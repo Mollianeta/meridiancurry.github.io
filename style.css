@@ -12,7 +12,8 @@ body {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 700;  
+  font-family: 'Nunito', "Lato", sans-serif;  
 }
 
 main {
