@@ -16,6 +16,11 @@ h1 {
   font-family: 'Nunito', "Lato", sans-serif;  
 }
 
+h2 {
+  font-weight: 600;  
+  font-family: 'Nunito', "Lato", sans-serif;  
+}
+
 main {
     margin: 1% 25%;
 }
