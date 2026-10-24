@@ -16,19 +16,9 @@ h1 {
     font-family: 'Nunito', "Lato", sans-serif;  
 }
 
-h2 {
+h2, h3, h4 {
     font-weight: 600;  
     font-family: 'Nunito', "Lato", sans-serif;  
-}
-
-h3 {
-    font-weight: 550;  
-    font-family: 'Nunito', "Lato", sans-serif; 
-}
-
-h4 {
-    font-weight: 500;  
-    font-family: 'Nunito', "Lato", sans-serif; 
 }
 
 main {
@@ -51,6 +41,10 @@ footer {
 
 p {
     text-align: left;
+}
+
+.menu-note {
+    text-align: center;
 }
 
 .logo {
@@ -82,4 +76,12 @@ p {
     justify-content: center;
     align-items: center;
     text-align: left;
+}
+
+.faq {
+    text-align: left;
+}
+
+.faq p{
+    margin-left: 5%;
 }
