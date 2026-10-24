@@ -61,14 +61,14 @@ p {
 }
 
 .nav-button {
-    background-color: #987654;
+    background-color: #856749;
     text-align: center;
     padding: 1% 5%;
     margin: 1%;
     border: none;
     display: inline-block;
     text-decoration: none;
-    color:white;
+    color: #FFFFFF;
 }
 
 .footer-container {
