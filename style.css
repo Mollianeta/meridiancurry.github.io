@@ -16,7 +16,7 @@ h1 {
     font-family: 'Nunito', "Lato", sans-serif;  
 }
 
-h2, h3, h4 {
+h2, h3, h4, label, button {
     font-weight: 600;  
     font-family: 'Nunito', "Lato", sans-serif;  
 }
@@ -90,4 +90,29 @@ p {
 
 .faq p{
     margin-left: 5%;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 1%;
+    border: #463727;
+    background-color: beige;
+}
+
+button {
+    border: none;
+    background-color: beige;
+    color:#463727;
+}
+
+button:hover {
+    background-color:tan;
+}
+
+a{
+    color:white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;  
+
 }

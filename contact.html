@@ -25,16 +25,18 @@
 
         <main>
             <h2>Send us your feedback!</h2>
-            <form>
+            <form action="submit.html" method="post">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name"><br>
                 <label for="email">Email:</label><br>
                 <input type="text" id="email" name="email"><br>
                 <label for="feedback">Feedback:</label><br>
-                <input type="text" id="feedback" name="feedback"><br>
-                <h3>Or, give us a call!</h3>
-                <a href="tel:+12080000000">(208) 000-0000</a>
+                <textarea id="text" name="feedback"></textarea><br>
+
+                <button type="submit">Submit</button>
             </form>
+            <h3>Or, give us a call!</h3>
+            <a href="tel:+12080000000">(208) 000-0000</a>
         </main>
         
         <footer>
