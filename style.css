@@ -83,6 +83,10 @@ p {
     margin-right: auto;
 }
 
+ul {
+    list-style: none;
+}
+
 dd {
     text-align: left;
     margin-bottom: 3%; 
